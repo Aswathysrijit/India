@@ -14,9 +14,9 @@ public class Browser {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.google.com/");		
+		driver.get("https://www.google.com/");
+		System.out.println("Himanshu");
         driver.quit();
-
 	}
 
 }
