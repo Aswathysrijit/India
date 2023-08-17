@@ -16,7 +16,7 @@ public class Browser {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
-		driver.findElement(By.xpath("(//*[@class='gb_y'])[1]")).click();
+		driver.findElement(By.xpath("(//*[@class='g_y'])[1]")).click();
 		
 		
 		
